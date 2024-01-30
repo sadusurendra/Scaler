@@ -1,0 +1,77 @@
+/*
+    Global CSS Starts
+*/
+
+* {
+    font-family: 'Kanit', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+}
+
+:root {
+    font-size: 62.5%;
+    /* 16px * 0.625 = 10px */
+    /* 
+        Now we can use like below
+        1.5rem * 10 = 15px
+        3.0rem * 10 = 30px
+    */
+}
+
+p,
+li,
+a,
+label,
+option {
+    font-size: 1.5rem;
+}
+
+h1 {
+    font-size: 4.5rem;
+    color: #ffffff;
+}
+
+h2 {
+    font-size: 4rem;
+    text-align: center;
+    padding-top: 2rem;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+h4 {
+    font-size: 1.6rem;
+}
+
+i {
+    font-size: 3rem;
+}
+
+section {
+    padding-bottom: 5rem;
+    align-items: center;
+}
+
+.underline {
+    padding-top: 2rem;
+    border-bottom: 0.2rem solid red;
+    width: 15%;
+    margin: auto;
+    margin-bottom: 4rem;
+}
+
+/*
+    Global CSS Ends
+*/

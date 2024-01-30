@@ -1,0 +1,656 @@
+/* Header section style starts */
+
+/* Nav section style starts */
+
+.navigation {
+    position: fixed;
+    top: 0;
+    height: 3rem;
+    width: 100%;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.nav__items {
+    display: flex;
+    justify-content: flex-end;
+    gap: 2rem;
+}
+
+.nav__item__link {
+    color: #e652af;
+    font-size: 1.8rem;
+    padding-right: 1rem;
+}
+
+.nav__item:last-child {
+    display: none;
+}
+
+/* Nav section style ends */
+
+/* Hero banner style starts */
+
+.hero-banner,
+.reviews-features {
+    background: rgba(0, 0, 0, 0.7) url(../assets/images/foodies_pizza_ready_for_baking.png) no-repeat center;
+    height: 80vh;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.hb-layer,
+.rf-layer {
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.hb-showcase {
+    position: absolute;
+    top: 15%;
+    left: 10%;
+}
+
+.hb-text {
+    color: rgb(205, 8, 77);
+}
+
+.hb-btn,
+.plans-btn,
+.signup-btn {
+    display: inline-block;
+    color: #ffffff;
+    background-color: #f63854;
+    padding: 1.5rem 2.5rem 1.5rem 2.5rem;
+    margin-right: 1.5rem;
+    border: 0.1rem solid #f63854;
+    border-radius: 6.4rem;
+    font-size: 2rem;
+    transition: transform 0.3s, color 0.3s, background-color 0.3s;
+}
+
+.hb-show-more {
+    color: #f63854;
+    background-color: transparent;
+}
+
+.hb-btn:hover,
+.plans-btn:hover,
+.signup-btn:hover {
+    transform: scale(1.2);
+}
+
+.hb-show-more:hover {
+    color: #ffffff;
+    background-color: #f63854;
+    transform: scale(1.2);
+}
+
+
+/* Hero banner style ends */
+
+
+/* Awesome features starts */
+
+.awesome-features {
+    background-color: #ffffff;
+    color: grey;
+}
+
+.af-container {
+    display: flex;
+    justify-content: center;
+    margin: 2.5rem;
+    gap: 2rem;
+    flex-direction: row;
+}
+
+.af-item {
+    width: 20%;
+    padding: 2rem;
+    box-shadow: 0 10px 30px 0 rgba(100, 100, 111, 0.2);
+}
+
+.af-item__heading-wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Awesome features ends */
+
+
+/* Steps to follow style starts */
+
+.steps-to-follow {
+    background-color: #f4f4f4;
+}
+
+.stf-container {
+    display: flex;
+    justify-content: center;
+}
+
+.stf-image-wrapper {
+    padding-right: 2rem;
+}
+
+.stf-content-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.stf-content-list {
+    display: flex;
+    justify-content: start;
+    text-align: center;
+    align-items: center;
+    padding-bottom: 1rem;
+}
+
+.stf-numbers {
+    color: #f63854;
+    font-weight: 800;
+    font-size: 2rem;
+    padding: 2rem;
+    border: 1px solid #f63854;
+    border-radius: 50%;
+    width: 7rem;
+    text-align: center;
+    margin-right: 1rem;
+}
+
+.stf-text {
+    color: #888e93;
+    font-size: 2rem;
+    text-align: left;
+}
+
+/* Steps to follow style ends */
+
+
+/* Reviews style starts */
+.reviews-features {
+    padding-bottom: 0;
+}
+
+.reviews-heading {
+    color: #ffffff;
+}
+
+.rf-container {
+    display: flex;
+    justify-content: center;
+    gap: 6rem;
+    padding: 0 4rem 0 4rem;
+}
+
+.rf-item {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    align-items: center;
+    padding: 3rem;
+    box-shadow: 0 10px 30px 0 rgba(100, 100, 111, 0.2);
+}
+
+.user-img {
+    border-radius: 50%;
+}
+
+.reviews-name {
+    font-weight: 100;
+    font-size: 3rem;
+}
+
+.reviews-content {
+    color: #888e93;
+    font-size: 2rem;
+    text-align: center;
+    padding: 2rem;
+}
+
+/* Reviews style ends */
+
+/* Plans style starts */
+
+.plans-container {
+    display: flex;
+    justify-content: center;
+    color: gray;
+    gap: 4rem;
+    padding-bottom: 8rem;
+}
+
+.plans-item {
+    border: 1px solid #f63854;
+    border-radius: 32px;
+    padding: 2rem;
+    box-shadow: 0 10px 30px 0 rgba(100, 100, 111, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.plans-item:hover {
+    transform: scale(1.2);
+}
+
+.plans-underline {
+    padding-top: 2rem;
+    border-bottom: 0.2rem solid #888e93;
+    margin: auto;
+    width: 100%;
+}
+
+.plans-type-h3 {
+    font-size: 2.5rem;
+}
+
+.plans-amt {
+    font-size: 4rem;
+    color: #f63854;
+}
+
+.plans-detail-li {
+    font-size: 2rem;
+}
+
+.fa-solid.fa-check {
+    font-size: 1.5rem;
+    color: #f63854;
+    font-weight: 800;
+}
+
+.plans-btn {
+    text-align: center;
+    position: relative;
+    top: 45px;
+}
+
+/* Plans style ends */
+
+/* signup style starts */
+
+.signup {
+    background-color: #212529;
+    color: grey;
+}
+
+.signup-container {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    padding: 0 1rem 0 1rem;
+}
+
+.signup-form-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.signup-form-label {
+    width: 100%;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+    border: 2px solid grey;
+    border-radius: 3%;
+    width: 100%;
+    padding: 3%;
+    margin-bottom: 3%;
+}
+
+
+
+.signup-form-terms {
+    font-size: 1.5rem;
+    padding-bottom: 2rem;
+}
+
+/* signup style ends */
+
+/* footer style starts */
+
+.footer {
+    background-color: #3a3838;
+    padding-bottom: 3rem;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-items,
+.footer-social-media {
+    display: flex;
+    gap: 2rem;
+    padding: 4rem 0 0 4rem;
+}
+
+.footer-items-list,
+.fs_link {
+    font-size: 3rem;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.fc-text {
+    padding: 2rem 0 2rem 0;
+    font-size: 3rem;
+    font-weight: lighter;
+    color: #ffffff;
+    text-align: center;
+}
+
+.fa-regular.fa-copyright {
+    color: #ffffff;
+    font-size: 2.5rem;
+}
+
+/* footer style ends */
+
+/* Header section style ends */
+
+
+/* Mobile View starts */
+
+@media screen and (min-width:1px) and (max-width:480px) {
+
+    .hb-btn,
+    .plans-btn,
+    .signup-btn {
+        padding: 1rem 2rem 1rem 2rem;
+        margin-right: 1rem;
+        font-size: 1.5rem;
+    }
+
+    /* Nav section style starts */
+    .nav__item__link {
+        display: none;
+
+    }
+
+    .nav__item:last-child {
+        display: inline-block;
+        color: #e652af;
+    }
+
+    /* Nav section style ends */
+
+    /* Awesome features starts */
+    .af-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .af-item {
+        width: 90%;
+    }
+
+    /* Awesome features ends */
+
+
+    /* Steps to follow style starts */
+
+    .stf-image-wrapper {
+        padding-right: 0;
+    }
+
+    .stf-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Steps to follow style ends */
+
+    /* Reviews style starts */
+    .rf-container {
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 3rem;
+    }
+
+    .reviews-features {
+        background: rgba(0, 0, 0, 0.7) url(../assets/images/foodies_pizza_ready_for_baking.png) repeat center;
+        height: 100%;
+    }
+
+    /* Reviews style ends */
+
+
+    /* Plans style starts */
+
+    .plans-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 8rem 0 8rem 0;
+    }
+
+    .plans-item:hover {
+        transform: scale(1);
+    }
+
+    /* Plans style ends */
+
+
+
+    /* signup style starts */
+
+    .signup-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .signup-form-wrapper {
+        padding-left: 1rem;
+    }
+
+    .signup-img {
+        width: 100%;
+    }
+
+    /* signup style ends */
+
+    /* footer style starts */
+
+    .footer-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-items {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    /* footer style ends */
+
+}
+
+/* Mobile View ends */
+
+/* Tablet View starts */
+
+@media screen and (min-width:481px) and (max-width:768px) {
+
+    .hb-btn,
+    .plans-btn,
+    .signup-btn {
+        padding: 1rem 2rem 1rem 2rem;
+        margin-right: 1rem;
+        font-size: 1.5rem;
+    }
+
+  
+    /* Awesome features starts */
+    .af-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .af-item {
+        width: 90%;
+    }
+
+    /* Awesome features ends */
+
+
+     
+    /* Reviews style starts */
+    .rf-container {
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 3rem; 
+    }
+
+    .reviews-features {
+        background: rgba(0, 0, 0, 0.7) url(../assets/images/foodies_pizza_ready_for_baking.png) repeat center;
+        height: 100%;
+    }
+    .rf-item {
+        
+        padding: 1rem; 
+    }
+    
+    .user-img {
+        width: 10%;
+        height: 10%;
+        border-radius: 50%;
+    }
+    
+    .reviews-name { 
+        font-size: 2rem;
+    }
+    
+    .reviews-content { 
+        padding: 0;
+    }
+
+    .reviews-star {
+        font-size: 1.5rem;
+    }
+
+    /* Reviews style ends */
+
+
+    /* Plans style starts */
+
+    .plans-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 8rem 0 8rem 0;
+    }
+
+    .plans-item:hover {
+        transform: scale(1);
+    }
+
+    /* Plans style ends */
+
+
+
+    /* signup style starts */
+
+    .signup-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .signup-form-wrapper {
+        padding-left: 1rem;
+    }
+
+    .signup-img {
+        width: 100%;
+    }
+
+    /* signup style ends */
+
+    /* footer style starts */
+
+    .footer-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* footer style ends */
+
+}
+
+/* Tablet View ends */
+
+
+/* Laptop View starts */
+
+@media screen and (min-width:769px) and (max-width:1024px) {
+
+     
+  
+    /* Awesome features starts */
+
+    .af-item {
+        width: 90%;
+    }
+
+    /* Awesome features ends */
+
+
+     
+    /* Reviews style starts */
+    .rf-container { 
+        padding-bottom: 3rem; 
+    }
+
+    .reviews-features {
+        background: rgba(0, 0, 0, 0.7) url(../assets/images/foodies_pizza_ready_for_baking.png) repeat center;
+        height: 100%;
+    }
+    .rf-item {
+        
+        padding: 1rem; 
+    }
+    
+    .user-img {
+        width: 20%;
+        height: 20%;
+        border-radius: 50%;
+    }
+    
+    .reviews-name { 
+        font-size: 2rem;
+    }
+    
+    .reviews-content { 
+        padding: 0;
+    }
+
+    .reviews-star {
+        font-size: 1.5rem;
+    }
+
+    /* Reviews style ends */
+
+}
+
+/* Laptop View ends */
